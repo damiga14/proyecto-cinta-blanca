@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Clase 10</title>
+</head>
+<body>
+    <h1>Clase 10</h1>
+
+    <div class="container-fluid">
+        <div>
+            <div class="offset-10">
+                <input id="nombre" type="text" placeholder="Nombre">
+                <br>
+                <input id="apellido" type="text" placeholder="Apellido">
+                <br>
+                <button type="button" id = "boton">Boton</button>
+
+                <p id="mensaje"></p>
+            </div>                   
+        </div>
+    </div>
+
+    <div class="invisible" id ="este">
+        <p>hoal</p>
+    </div>
+
+    <hr>
+
+
+
+    <!--Empieza Calculadora-->
+    <center>
+    <div class="contenedor" >
+        <div id="display">
+            <div class="flex-container">
+                <h1>Calculadora</h1>
+                
+                <input type="number" id="pantalla" disabled>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <div class="flex-container">
+                <div id="numeros">
+                        <div class="flex-container">
+                            <div>
+                                <button type="button" id="uno">1</button>
+                            </div>               
+                            <div>
+                                <button type="button" id="dos">2</button>
+                            </div>                
+                            <div>
+                                <button type="button" id="tres">3</button>
+                            </div>
+                        </div>
+        
+                        <div class="flex-container">
+                            <div>
+                                <button type="button" id="cuatro">4</button>
+                            </div>
+                            <div>
+                                <button type="button" id="cinco">5</button>
+                            </div>                
+                            <div>
+                                <button type="button" id="seis">6</button>
+                            </div>
+                        </div>
+        
+                        <div class="flex-container">
+                            <div>
+                                <button type="button" id="siete">7</button>
+                            </div>               
+                            <div>
+                                <button type="button" id="ocho">8</button>
+                            </div>                
+                            <div>
+                                <button type="button" id="nueve">9</button>
+                            </div>
+                        </div>
+        
+                        <div class="flex-container">
+                            <div>
+                                <button type="button" id="reset">C</button>
+                            </div> 
+                            <div>
+                                <button type="button" id="cero">0</button>
+                            </div> 
+                            <div>
+                                <button type="button" id="igual">=</button>
+                            </div>
+                        </div>
+                </div>
+    
+                <div id="operadores">
+                    <div class="flex-container">
+                        <div>
+                            <button type="button" id="suma">+</button>
+                        </div>
+                        <div>
+                            <button type="button" id="resta">-</button>
+                        </div>
+                        <div>
+                            <button type="button" id="multiplica">*</button>
+                        </div>
+                        <div>
+                            <button type="button" id="divide">/</button>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </div>
+    </center>
+
+    <!--Termina Calculadora-->
+
+    <!--<script src="bootstrap.js"></script>-->
+    <script src="script.js"></script>
+</body>
+</html>

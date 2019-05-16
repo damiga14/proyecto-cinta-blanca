@@ -1,0 +1,89 @@
+body{
+    background-image: url("imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+
+.headimg img{
+    width: 500px;
+}
+
+.titulo{
+    margin-bottom: 50px;
+}
+
+.imagenYo{
+    transform: rotate(-10deg);
+}
+
+.textoFlex{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+.separacion{
+    margin-top: 50px;   
+}
+
+.titulos{
+    font-size: 50px;
+    color: white;
+}
+
+#logos ul{
+    list-style-type: none;
+    margin-left: -80px
+}
+
+#logos li{
+    display: inline;
+    
+}
+
+#proyectos ul{
+    font-size: 35px;
+    column-count: 2;
+    width: 500px;
+    margin-left: -50px
+}
+
+#proyectos li{
+    position: relative;
+    list-style: none;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10pxs;
+}
+
+#proyectos li:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(imagenes/coin.gif);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.titulos h4:hover{
+    -webkit-animation: shake 1s;
+    animation: shake 1s;
+}
+
+.nintendoHover:hover{
+    -webkit-animation: jello 1s;
+    animation: jello 1s;
+}
+.codingHover:hover{
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
